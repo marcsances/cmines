@@ -103,7 +103,7 @@ void propagate(int x, int y) {
     if (valid(x+1,y+1)) play(x+1,y+1);
 }
 
-inline int check(int x, int y) {
+int check(int x, int y) {
     return at(x,y)=='F';
 }
 
